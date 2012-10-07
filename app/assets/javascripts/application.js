@@ -12,4 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require jquery.tweet
+//= require jquery.flexslider-min
+//= require jquery.prettyPhoto
+//= require custom.quicksand
+//= require menu
