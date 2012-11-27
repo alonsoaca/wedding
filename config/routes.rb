@@ -1,5 +1,7 @@
 Wedding::Application.routes.draw do
   get "welcome/index"
+  
+  get 'about' => 'welcome#about'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
