@@ -8,3 +8,5 @@ git add .
 git commit -m "$1"
 
 git push
+
+bundle exec cap deploy
