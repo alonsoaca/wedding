@@ -3,6 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"deplo",
+				"deploy"
+			]
 		]
 	},
 	"buffers":
@@ -36,18 +44,25 @@
 	},
 	"file_history":
 	[
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/Capfile",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/index.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/expressDeploysh.sh",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/routes.rb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/deploy.rb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/marriage-html/index.html",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/about.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/testIf.sh",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/nginx.conf",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/controllers/application_controller.rb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/routes.rb",
 		"/Users/alonso/Desktop/prueba_sublime.rb"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -57,6 +72,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"about",
+			"about_",
+			"gift reg"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -120,6 +138,30 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"ca",
+				"Capfile"
+			],
+			[
+				"dep",
+				"config/deploy.rb"
+			],
+			[
+				"ind",
+				"public/marriage-html/index.html"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"inde",
+				"public/marriage-html/index.html"
+			],
+			[
+				"ab",
+				"app/views/welcome/about.html.erb"
+			]
 		],
 		"width": 0.0
 	},
