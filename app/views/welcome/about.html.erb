@@ -81,11 +81,16 @@ var $ = jQuery.noConflict();
    		<div class="left23">
             <h2>Información sobre nuestra boda:</h2>
             <p>
-            <a href="<%= asset_path 'slider/slide1.jpg' %>" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><%= image_tag 'pic_left.jpg', {class:'left_pic'}%></a>
-            Lorem ipsum dolor sit amet, consectetur adi pisi cing elit, sed do eiusmod tempor <strong>exercitationem</strong> ut labore et dolore magna aliqua. Ut e  ut aliquid ex  ut aliquid ex  nim ad <strong><a href="#">ullam</a></strong> quis nostrud exercitation ullamco laboris nisi <strong><a href="#">consequatur</a></strong> ut aliquip ex ea commodo consequat. <br /><br />
-            Ut enim ad minima veniam, quis nostru <strong>exercitationem</strong> ullam corporis laboriosam, nisi ut aliquid ex ea commodi <strong><a href="#">consequatur</a></strong>
+            <%= image_tag 'pic_left.jpg', {class:'left_pic'}%>
+
+            Les recordamos que el <strong>código de vestimenta</strong> es de tipo <strong>coctail formal </strong>
+
+            <br/>
+            <br/>
+
+            La boda se realizar en la <strong><a href="http://www.360cities.net/image/parroquia-de-la-sagrada-familia-mexico#0.40,-24.20,90.0">Parroquia de la Sagrada Familia</a></strong> en la calle de Puebla 144, entre Orizaba y Jalapa en la colonia Roma Norte . La recepción se llevara acabo en el <strong><a href="http://www.chilango.com/restaurantes/roma/centro-gallego">Centro Gallego</a></strong> ubicado a solo unos metros de la iglesia sobre la calle en la calle de Colima 194, entre Orizaba y Jalapa.
+
             </p>
-            <a href="#" class="more">read more</a>
             
             <div class="clear"></div>
             
@@ -93,11 +98,11 @@ var $ = jQuery.noConflict();
             
             <div class="contact_info">
             <h3>Wedding Video</h3>
-            <div class="icon"><a href="http://www.youtube.com/watch?v=EhY58d4XLl8" rel="prettyPhoto[gallery]" title="Popup Video"><img src="images/icon_video.png" alt="" title="" border="0"/></a></div><p>Dullamco nisi <strong><a href="#">consequatur</a></strong> ut aliquiut ex  ut s nostrud exercitation ullam ex  nim a</p>
+            <div class="icon"><a href="http://www.youtube.com/watch?v=EhY58d4XLl8" rel="prettyPhoto[gallery]" title="Popup Video"><%= image_tag 'icon_video.png' %></a></div><p>Dullamco nisi <strong><a href="#">consequatur</a></strong> ut aliquiut ex  ut s nostrud exercitation ullam ex  nim a</p>
             </div>
             <div class="contact_info">
             <h3>Guests Reservation</h3>
-            <div class="icon"><a href="#"><img src="images/icon_clients.png" alt="" title="" border="0"/></a></div><p>Dullamco laboris nisi <strong><a href="#">consequatur</a></strong>  ex  ut s nostrud exercitation ullam ex  nim a</p>
+            <div class="icon"><a href="#"><%= image_tag "icon_clients.png" %></a></div><p>Dullamco laboris nisi <strong><a href="#">consequatur</a></strong>  ex  ut s nostrud exercitation ullam ex  nim a</p>
             </div>
 
             </div>  
@@ -105,14 +110,18 @@ var $ = jQuery.noConflict();
         </div>
         
         <div class="left13">
-            <h2>Bridesmaids &amp; Groomsmen's</h2>
+            <h2>Damas &amp; Padrinos</h2>
             <div class="bgs">
 			<ul>
-                <li><a href="images/slider/slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="images/bridesmaids.jpg" class="bg_thumb" alt="" title="" /></a><a href="#">Sed do eiusmod tempor</a> <span>sit amet, consectetur adi aliquip ex ea commodo  pisi cing elit</span></li> 
-                <li><a href="images/slider/slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="images/groomsmen.jpg" class="bg_thumb" alt="" title="" /></a><a href="#">Labore et dolore </a> <span>sit amet, consectetur adi aliquip ex ea commodo  pisi cing elit</span></li>
-                <li><a href="images/slider/slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="images/bridesmaids.jpg" class="bg_thumb" alt="" title="" /></a><a href="#">Rliquip tempor</a> <span>sit amet, consectetur adi aliquip ex ea commodo  pisi cing elit</span></li> 
-                <li><a href="images/slider/slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="images/groomsmen.jpg" class="bg_thumb" alt="" title="" /></a><a href="#">Labore et dolore </a> <span>sit amet, consectetur adi aliquip ex ea commodo  pisi cing elit</span></li>
-                <li><a href="images/slider/slide1.jpg" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><img src="images/bridesmaids.jpg" class="bg_thumb" alt="" title="" /></a><a href="#">Rliquip tempor</a> <span>sit amet, consectetur adi aliquip ex ea commodo  pisi cing elit</span></li>
+                <li><a href="<%= asset_path 'slider/bander_disney.jpg'%>" rel="prettyPhoto[gallery]" title="Festejando a la quinceañera más hermosa del mundo en Disney"><%= image_tag 'bridesmaid_bander.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/andreea.castaneda" target="_blank">Andrea Castañeda Andrade </a> <span>&nbsp; La hermanita menor de Alonso. Personita favorita de Alonso, siempre alegre, positiva y auténtica.</span></li> 
+                <li><a href="<%= asset_path 'slider/abry_chacahua.jpg'%>" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><%= image_tag 'groomsmen_abry.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/Abryx?fref=ts" target="_blank">Abraham Pronciano </a> <span>&nbsp; Amigo incondicional, siempre precente cuando se le necesita. Guerrero y party animal.</span></li>
+                <li><a href="<%= asset_path 'slider/bander_disney.jpg'%>" rel="prettyPhoto[gallery]" title="Festejando a la quinceañera más hermosa del mundo en Disney"><%= image_tag 'bridesmaid_bander.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/andreea.castaneda" target="_blank">Andrea Castañeda Andrade </a> <span>&nbsp; La hermanita menor de Alonso. Personita favorita de Alonso, siempre alegre, positiva y auténtica.</span></li> 
+                <li><a href="<%= asset_path 'slider/abry_chacahua.jpg'%>" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><%= image_tag 'groomsmen_abry.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/Abryx?fref=ts" target="_blank">Abraham Pronciano </a> <span>&nbsp; Amigo incondicional, siempre precente cuando se le necesita. Guerrero y party animal.</span></li>
+                <li><a href="<%= asset_path 'slider/bander_disney.jpg'%>" rel="prettyPhoto[gallery]" title="Festejando a la quinceañera más hermosa del mundo en Disney"><%= image_tag 'bridesmaid_bander.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/andreea.castaneda" target="_blank">Andrea Castañeda Andrade </a> <span>&nbsp; La hermanita menor de Alonso. Personita favorita de Alonso, siempre alegre, positiva y auténtica.</span></li> 
+                <li><a href="<%= asset_path 'slider/abry_chacahua.jpg'%>" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><%= image_tag 'groomsmen_abry.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/Abryx?fref=ts" target="_blank">Abraham Pronciano </a> <span>&nbsp; Amigo incondicional, siempre precente cuando se le necesita. Guerrero y party animal.</span></li>
+                <li><a href="<%= asset_path 'slider/bander_disney.jpg'%>" rel="prettyPhoto[gallery]" title="Festejando a la quinceañera más hermosa del mundo en Disney"><%= image_tag 'bridesmaid_bander.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/andreea.castaneda" target="_blank">Andrea Castañeda Andrade </a> <span>&nbsp; La hermanita menor de Alonso. Personita favorita de Alonso, siempre alegre, positiva y auténtica.</span></li> 
+                <li><a href="<%= asset_path 'slider/abry_chacahua.jpg'%>" rel="prettyPhoto[gallery]" title="Lorem ipsum sit amet"><%= image_tag 'groomsmen_abry.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/Abryx?fref=ts" target="_blank">Abraham Pronciano </a> <span>&nbsp; Amigo incondicional, siempre precente cuando se le necesita. Guerrero y party animal.</span></li>
+                
             </ul>
             </div>
         </div>
@@ -132,65 +141,12 @@ var $ = jQuery.noConflict();
         
         <div class="clear"></div>
 
-   		<div class="left13 section_home">
-        <h2>Wedding <span>Location</span></h2>
-        <a href="#"><img src="images/image_13.jpg" alt="" title="" /></a>
-        <p>
-Ut enim ad minima veniam, quis nostru <strong>exercitationem</strong> ullam corporis laboriosam, nisi ut aliquid ex ea commodi <strong><a href="#">consequatur</a></strong>
-        </p>
-        <a href="#" class="section_more"><span class="swirl_left"><span class="swirl_right">read more</span></span></a>
-        </div>
         
-   		<div class="left13 section_home">
-        <h2>Honeymoon <span>Destination</span></h2>
-        <a href="#"><img src="images/image_13_2.jpg" alt="" title="" /></a>
-        <p>
-Ut enim ad minima veniam, quis nostru <strong>exercitationem</strong> ullam corporis laboriosam, nisi ut aliquid ex ea commodi <strong><a href="#">consequatur</a></strong>
-        </p>
-        <a href="#" class="section_more"><span class="swirl_left"><span class="swirl_right">read more</span></span></a>
-        </div>
-        
-   		<div class="left13 section_home">
-        <h2>Girft <span>Registry</span></h2>
-        <a href="#"><img src="images/image_13_3.jpg" alt="" title="" /></a>
-        <p>
-Ut enim ad minima veniam, quis nostru <strong>exercitationem</strong> ullam corporis laboriosam, nisi ut aliquid ex ea commodi <strong><a href="#">consequatur</a></strong>
-        </p>
-        <a href="#" class="section_more"><span class="swirl_left"><span class="swirl_right">read more</span></span></a>
-        </div>
             
    </div>
    
-   <div class="clear"></div> 
    
 </div>
 
 </div>
 </div>
-
-   
-   <div class="footer">
-       <div class="footer_content">
-       <div class="footer_text">
-       Marriage | Premium Wedding Template by <a href="http://famousthemes.com">Famous Themes</a> <br />
-       Photos by <a href="http://antondemin.ru/" target="_blank">antondemin.ru</a>
-       </div>
-       <div class="footer_menu">
-           <ul>
-           <li class="selected"><a href="index.html">Home</a></li>             
-           <li><a href="blog.html">Blog </a></li>             
-           <li><a href="gallery.html">Photo Album </a></li>             
-           <li><a href="rsvp.html">RSVP</a></li>               
-           <li><a href="contact.html">Contact</a></li> 
-           <li><a onclick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="javascript:void(0);" class="gotop" title="Go on top">TOP</a> </li>
-           </ul>
-       </div>
-       <div class="clear"></div>
-       </div>
-       
-   </div>
-
-<script type="text/javascript">
-var main_menu=new main_menu.dd("main_menu");
-main_menu.init("main_menu","menuhover");
-</script>

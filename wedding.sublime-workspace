@@ -15,6 +15,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/database.yml",
+			"settings":
+			{
+				"buffer_size": 954,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/welcome/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 7388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/welcome/about.html.erb",
+			"settings":
+			{
+				"buffer_size": 8411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/marriage-html/page.html",
+			"settings":
+			{
+				"buffer_size": 10737,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -44,11 +76,13 @@
 	},
 	"file_history":
 	[
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/deploy.rb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/ChurchIcon-32.png",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/wedding.sublime-project",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/Capfile",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/index.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/expressDeploysh.sh",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/routes.rb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/deploy.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/marriage-html/index.html",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/about.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/testIf.sh",
@@ -92,8 +126,124 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/database.yml",
+					"settings":
+					{
+						"buffer_size": 954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/welcome/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 7388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4315,
+								4315
+							],
+							[
+								4366,
+								4366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2327.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/welcome/about.html.erb",
+					"settings":
+					{
+						"buffer_size": 8411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3674,
+								3685
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1751.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/marriage-html/page.html",
+					"settings":
+					{
+						"buffer_size": 10737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1613.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -139,6 +289,26 @@
 		"selected_items":
 		[
 			[
+				"page",
+				"public/marriage-html/page.html"
+			],
+			[
+				"abo",
+				"app/views/welcome/about.html.erb"
+			],
+			[
+				"depl",
+				"config/deploy.rb"
+			],
+			[
+				"inde",
+				"app/views/welcome/index.html.erb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
 				"ca",
 				"Capfile"
 			],
@@ -153,10 +323,6 @@
 			[
 				"route",
 				"config/routes.rb"
-			],
-			[
-				"inde",
-				"public/marriage-html/index.html"
 			],
 			[
 				"ab",
