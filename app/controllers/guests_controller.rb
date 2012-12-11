@@ -13,7 +13,6 @@ class GuestsController < ApplicationController
     if @guest.save
       flash.now[:success] = "Gracias #{@guest.name}, tu respuesta se ha guardado correctamente. Pronto alguien se pondra en contactor contigo."
     end
-
     render 'welcome/rsvp'
 
   end
@@ -25,7 +24,6 @@ class GuestsController < ApplicationController
   	if @guest.update_attributes (params[:guest])
       flash.now[:success] = "Gracias #{@guest.name}, tu respuesta se ha guardado correctamente. Pronto alguien se pondra en contactor contigo."
     end
-
   	render 'welcome/rsvp'
 
   end
