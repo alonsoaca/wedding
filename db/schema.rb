@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121211040844) do
+ActiveRecord::Schema.define(:version => 20121211154613) do
 
   create_table "guests", :force => true do |t|
     t.integer  "guest_number"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(:version => 20121211040844) do
     t.string   "email"
     t.string   "telephone"
     t.string   "input_method"
+    t.string   "test_field"
   end
 
   add_index "guests", ["guest_number"], :name => "guest_number_index", :unique => true
