@@ -1,0 +1,102 @@
+<% content_for :moreScripts do %>
+<script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+    
+    $(function() {
+        $('.show_menu').click(function(){
+                $('.menu').fadeIn();
+                $('.show_menu').fadeOut();
+                $('.hide_menu').fadeIn();
+        });
+        $('.hide_menu').click(function(){
+                $('.menu').fadeOut();
+                $('.show_menu').fadeIn();
+                $('.hide_menu').fadeOut();
+        });
+    });
+    
+
+  });
+  
+  jQuery(function($){
+    $(".tweet").tweet({
+      join_text: "auto",
+      username: "famousthemes",
+      count: 1,
+      auto_join_text_default: "we said,",
+      auto_join_text_ed: "we",
+      auto_join_text_ing: "we were",
+      auto_join_text_reply: "we replied",
+      auto_join_text_url: "we were checking out",
+      loading_text: "loading tweets..."
+    });
+    $('#basicuse').jflickrfeed({
+        limit: 6,
+        qstrings: {
+            id: '31408169@N04'
+        },
+        itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+    });
+  });
+</script>
+<% end %>
+
+  <div class="pages_title">
+    <h2>Repondez s'il vous plait <span>RSVP</span></h2>
+  </div>
+
+  <%= render 'shared/error_messages', object: @guest %>
+   
+   <div class="content">
+        <div class="left23">
+    
+            <div class="form_content">
+            
+                <%= form_tag(:controller => "welcome", :action => "confirm_rsvp", :method => "post") do %>
+
+                  <%= hidden_field_tag(:id, @guest.id) %>
+
+                  <h3 class="form_subtitle">¿Asistirias al a boda?</h3>
+                    <div class="form_rsvp">
+                        <div class="form_row_rsvp">
+                        <div class="checkbox_container"><%= radio_button_tag(:attend_status, "yes", @guest.attend_status , { :class => "form_radio"}) %></div> <span class="checkbox_value">Si voy.</span>  
+                        </div>
+                        <div class="form_row_rsvp">
+                        <div class="checkbox_container"><%= radio_button_tag(:attend_status, "no", nil, { :class => "form_radio"}) %></div> <span class="checkbox_value">No voy.</span>  
+                        </div>
+                        <div class="form_row_rsvp">
+                        <div class="checkbox_container"><%= radio_button_tag(:attend_status, "talves") %></div> <span class="checkbox_value">No  estoy seguro</span>  
+                        </div>
+                    </div>
+
+                  <h3 class="form_subtitle">Detalles del invitado</h3>
+                    <div class="form">
+                        <div class="form_row">
+                        <%= label_tag(:name, "tu nombre:") %>
+                        <%= text_field_tag(:name, @guest.name, {:class => 'form_input'}) %>
+                        </div>
+                        <div class="form_row">
+                        <%= label_tag(:email, "tu email:") %>
+                        <%= text_field_tag(:email, @guest.email, {:class => 'form_input'}) %>
+                        </div>
+                        <div class="form_row">
+                        <%= label_tag(:telephone, "tu telefono:") %>
+                        <%= text_field_tag(:telephone, @guest.telephone, {:class => 'form_input'}) %>
+                        </div>
+                        <div class="form_row">
+                            <%= submit_tag("Agregar RSVP", :class => 'form_submit_contact') %>
+                        </div> 
+                    </div>
+
+                <% end %>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+
+   <div class="clear"></div> 

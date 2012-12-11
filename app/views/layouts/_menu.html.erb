@@ -1,0 +1,22 @@
+<a class="show_menu" href="#">menu</a>
+<a class="hide_menu" href="#">cerrar menu</a>
+
+<div class="menu">
+	<ul id="main_menu">
+		<li>
+			<a <%= selected_page "/" %> href="/">Home</a>
+		</li>
+		<li>
+			<a <%= selected_page "about" %> href="/about">Nuestra Boda</a>
+		</li>
+		<li>
+			<a href="gallery.html">Álbum de fotos</a>
+		</li>
+		<li>
+			<a <%= selected_page "rsvp" %> href="/rsvp">RSVP</a>
+		</li>
+		<li>
+			<a href="contact.html">Contacto</a>
+		</li>
+	</ul>
+</div>

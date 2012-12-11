@@ -3,6 +3,12 @@ Wedding::Application.routes.draw do
   
   get 'about' => 'welcome#about'
 
+  resources :guests
+
+  resources :guests, :only => [:create, :update]
+
+  get 'rsvp' => 'welcome#rsvp'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

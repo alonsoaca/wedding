@@ -7,17 +7,17 @@
 		</div>
 		<div class="footer_menu">
 			<ul>
-				<li class="selected">
+				<li <%= selected_page "/" %>>
 					<a href="/">Home</a>
 				</li>
-				<li>
-					<a href="about">Nuestra Boda </a>
+				<li <%= selected_page "about" %>>
+					<a href="/about">Nuestra Boda </a>
 				</li>
 				<li>
 					<a href="gallery.html">Álbum de fotos </a>
 				</li>
-				<li>
-					<a href="rsvp.html">RSVP</a>
+				<li <%= selected_page "rsvp" %>>
+					<a href="/rsvp">RSVP</a>
 				</li>
 				<li>
 					<a href="contact.html">Contacto</a>
