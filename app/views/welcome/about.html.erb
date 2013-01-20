@@ -64,9 +64,19 @@ var $ = jQuery.noConflict();
 
             <div class="clear"></div>
 
+            <%
+                if mobile_device?
+            %>
+
+                <a target="_blank" href="https://maps.google.com/maps/ms?msid=206654135805157920352.0004d08366ab29f6abd42&msa=0&ll=19.421117,-99.160216&spn=0.006294,0.011104" class="section_more"><span class="swirl_left"><span class="swirl_right">Ver Mapa</span></span></a>
+
+            <% else %>
+
             <h2>Mapa para la boda y recepción:</h2>
 
-            <iframe width="600" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=206654135805157920352.0004d08366ab29f6abd42&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=19.421349,-99.160023&amp;spn=0.006516,0.011104&amp;output=embed"></iframe><br /><small>Ver <a href="https://maps.google.com/maps/ms?msid=206654135805157920352.0004d08366ab29f6abd42&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=19.421349,-99.160023&amp;spn=0.006516,0.011104&amp;source=embed" style="color:#0000FF;text-align:left">Iglesia Sagrada Familia y Centro Gallego</a> en un mapa ampliado</small>
+            <iframe width="600" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=206654135805157920352.0004d08366ab29f6abd42&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=19.421349,-99.160023&amp;spn=0.006516,0.011104&amp;output=embed"></iframe><br /><small>Ver <a href="https://maps.google.com/maps/ms?msid=206654135805157920352.0004d08366ab29f6abd42&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=19.421349,-99.160023&amp;spn=0.006516,0.011104&amp;source=embed" style="color:#0000FF;text-align:left">Iglesia Sagrada Familia y Centro Gallego</a> en un mapa ampliado</small>
+
+            <% end %>
             
             <div class="clear"></div>
             
@@ -92,22 +102,7 @@ var $ = jQuery.noConflict();
             <h2>Damas &amp; Padrinos</h2>
             <div class="bgs">
 			<ul>
-                <li><a href="<%= asset_path 'bridesmaid_fach.jpg'%>" rel="prettyPhoto[gallery]" title="Foto Fachis"><%= image_tag 'bridesmaid_fach.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/fatima.torrehutt?fref=ts" target="_blank">Fatima Torre Hütt</a> <span>&nbsp; La hermanita menor de Alonso. Personita favorita de Alonso, siempre alegre, positiva y auténtica.</span></li> 
-
-                <li><a href="<%= asset_path 'slider/eli_y_yo_slider.jpg'%>" rel="prettyPhoto[gallery]" title="Amaneciendo después de un gran festejo."><%= image_tag 'groomsmen_ely.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/elias.c.andrade.94?fref=ts" target="_blank">Elias Campos </a> <span>&nbsp; Primo y hermano de Alonso. El amor más grande que se le puede tener a un amigo, primo y hermano!</span></li>
-
-                <li><a href="<%= asset_path 'slider/mariana_y_yo_graduacion.jpg'%>" rel="prettyPhoto[gallery]" title="Muy orgulloso de mi hermanita. La mejor diseñadora del mundo!"><%= image_tag 'bridesmaid_mariana.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/mariana.castaneda.790?fref=ts" target="_blank">Mariana Castañeda Andrade </a> <span>&nbsp; La hermana y mejor amiga de Alonso, increible mujer llena de fuerza y caracter.</span></li> 
-
-                <li><a href="<%= asset_path 'groomsmen_julis.jpg'%>" rel="prettyPhoto[gallery]" title="Foyo Julian"><%= image_tag 'groomsmen_julis.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/julian.torrehutt?fref=ts" target="_blank">Julian Torre </a> <span>&nbsp; Amigo incondicional, siempre precente cuando se le necesita. Guerrero y party animal.</span></li>
-
-                <li><a href="<%= asset_path 'slider/bander_disney.jpg'%>" rel="prettyPhoto[gallery]" title="Festejando a la quinceañera más hermosa del mundo en Disney"><%= image_tag 'bridesmaid_bander.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/andreea.castaneda" target="_blank">Andrea Castañeda Andrade </a> <span>&nbsp; La hermanita menor de Alonso. Personita favorita de Alonso, siempre alegre, positiva y auténtica.</span></li> 
-
-                <li><a href="<%= asset_path 'groomsmen_mariano.jpg'%>" rel="prettyPhoto[gallery]" title="Foto Mariano"><%= image_tag 'groomsmen_mariano.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/torrehutt?fref=ts" target="_blank">Marian Torre </a> <span>&nbsp; Amigo incondicional, siempre precente cuando se le necesita. Guerrero y party animal.</span></li>
-
-                <li><a href="<%= asset_path 'slider/festejando_con_cris.jpg'%>" rel="prettyPhoto[gallery]" title="Festejando mi cumple my contento con mi primita linda."><%= image_tag 'bridesmaid_cris.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/cristina.c.andrade.3?fref=ts" target="_blank">Cristina Campos Andrade </a> <span>&nbsp; La prima hermana de Alonso. Crecieron juntos desde chicos y al igual que su hermano Elias, siempre ha sido una persona muy especial para el.</span></li> 
-
-                <li><a href="<%= asset_path 'slider/abry_chacahua.jpg'%>" rel="prettyPhoto[gallery]" title="Descansando en Chacahua."><%= image_tag 'groomsmen_abry.jpg', {class:'bg_thumb'}%></a><a href="http://www.facebook.com/Abryx?fref=ts" target="_blank">Abraham Pronciano </a> <span>&nbsp; Amigo incondicional, siempre precente cuando se le necesita. Guerrero y party animal.</span></li>
-
+                <%= render "padrinos"%>
             </ul>
             </div>
         </div>

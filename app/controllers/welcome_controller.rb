@@ -3,6 +3,7 @@ class WelcomeController < ApplicationController
   end
   
   def about
+    @padrinos = YAML.load_file(Rails.root.join("config","padrinos.yml"))
   end
 
   def rsvp

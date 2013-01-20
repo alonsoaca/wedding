@@ -1,0 +1,3 @@
+<% @padrinos.each_key do |nombre_padrino|  %>
+	<li><a href="<%= asset_path @padrinos[nombre_padrino]['slider']%>" rel="prettyPhoto[gallery]" title="<%=@padrinos[nombre_padrino]['title']%>"><%= image_tag @padrinos[nombre_padrino]['icon'], {class:'bg_thumb'}%></a><a href="<%=@padrinos[nombre_padrino]['fb']%>" target="_blank"><%=nombre_padrino%></a> <span>&nbsp; <%=@padrinos[nombre_padrino]['desc']%></span></li> 
+<% end %>
