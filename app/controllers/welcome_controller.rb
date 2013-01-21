@@ -17,4 +17,8 @@ class WelcomeController < ApplicationController
 
   end
 
+  def gallery
+    @fotos = YAML.load_file(Rails.root.join("config","fotos.yml"))
+  end
+
 end

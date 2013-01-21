@@ -1,0 +1,48 @@
+<% content_for :moreScripts do %>
+<script type="text/javascript" charset="utf-8">
+	var $ = jQuery.noConflict();
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+			animation : "fade"
+		});
+
+	});
+
+	jQuery(function($) {
+		$(".tweet").tweet({
+			join_text : "auto",
+			username : "famousthemes",
+			count : 1,
+			auto_join_text_default : "we said,",
+			auto_join_text_ed : "we",
+			auto_join_text_ing : "we were",
+			auto_join_text_reply : "we replied",
+			auto_join_text_url : "we were checking out",
+			loading_text : "loading tweets..."
+		});
+	}); 
+</script>
+<% end %>
+
+<div class="pages_title">
+  <h2>Nuestro Álbum de <span>fotos</span></h2>
+</div> 
+
+<div class="content">
+
+	<ul class="filter_portfolio">       
+        <li class="segment-1 selected"><a href="#" data-value="all">Ver todas</a></li>
+        <li class="segment-3"><a href="#" data-value="twitter">Twitter</a></li>
+        <li class="segment-3"><a href="#" data-value="nosotros">Nosotros</a></li>
+        <li class="segment-4"><a href="#" data-value="honeymoon">Honeymoon</a></li>
+        <li class="segment-5"><a href="#" data-value="groomsmens">Padrinos &amp; Damas</a></li>
+    </ul>
+
+    <ul class="portfolio_items">
+    
+        <%= render 'fotos' %>
+    
+    </ul>
+    <div class="clear"></div>
+</div>
+

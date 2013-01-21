@@ -17,6 +17,25 @@
 
 		<%= javascript_include_tag "application" %>
 		
+		<script type="text/javascript">
+
+			$(function(){
+				$(function() {
+					$('.show_menu').click(function() {
+						$('.menu').fadeIn();
+						$('.show_menu').fadeOut();
+						$('.hide_menu').fadeIn();
+					});
+					$('.hide_menu').click(function() {
+						$('.menu').fadeOut();
+						$('.show_menu').fadeIn();
+						$('.hide_menu').fadeOut();
+					});
+				});
+			});
+
+		</script>
+
 		<%= yield :moreScripts %>
 		
 		<%= csrf_meta_tags %>

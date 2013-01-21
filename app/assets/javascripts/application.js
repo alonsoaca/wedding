@@ -15,5 +15,6 @@
 //= require jquery.tweet
 //= require jquery.flexslider-min
 //= require jquery.prettyPhoto
+//= require	jquery.quicksand
 //= require custom.quicksand
 //= require menu

@@ -9,6 +9,8 @@ Wedding::Application.routes.draw do
 
   get 'rsvp' => 'welcome#rsvp'
 
+  get 'gallery' => 'welcome#gallery'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

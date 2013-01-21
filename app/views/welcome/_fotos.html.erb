@@ -1,0 +1,11 @@
+
+<% @fotos.each_key do |foto|  %>
+	<li class="gallery13 <%= @fotos[foto]['class'] %>" data-id="id-1">
+	    <img src="<%= asset_path 'gallery_frame.png' %>" alt="" title="" border="0" class="frame" />
+	    <img src="<%= asset_path @fotos[foto]['thumb'] %>" alt="" title="" border="0" class="thumb" />
+	    <span class="portfolio_caption">
+	    <a href="<%= asset_path @fotos[foto]['slider'] %>" rel="prettyPhoto[gallery]" title="<%=@fotos[foto]['title']%>"><img src="<%= asset_path 'zoom.png' %>" alt="" title="" border="0" /></a>
+	    </span>  
+	    <h3><%= foto %></h3>
+	</li>
+<% end %> 	
