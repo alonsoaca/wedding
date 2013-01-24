@@ -27,22 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/welcome/gallery.html.erb",
-			"settings":
-			{
-				"buffer_size": 1286,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/fotos.yml",
-			"settings":
-			{
-				"buffer_size": 124,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -72,25 +56,26 @@
 	},
 	"file_history":
 	[
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/_padrinos.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/padrinos.yml",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/about.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/application.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_menu.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/fotos.yml",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/gallery.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/_fotos.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_header.html.erb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_menu.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/helpers/application_helper.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/helpers/welcome_helper.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_footer.html.erb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/_padrinos.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/controllers/welcome_controller.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/assets/stylesheets/style.css.scss.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/index.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/marriage-html/gallery.html",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/assets/javascripts/application.js",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/about.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/rsvp.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/rsvp_back.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/routes.rb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/padrinos.yml",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/twitter_test.html",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/embedy_test.html",
 		"/Users/alonso/Library/Application Support/Sublime Text 2/Packages/User/jquery.sublime-snippet",
@@ -137,6 +122,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"menu",
 			"portfolio_caption",
 			"heart",
 			"fachi",
@@ -164,62 +150,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/welcome/gallery.html.erb",
-					"settings":
-					{
-						"buffer_size": 1286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								882,
-								882
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 83.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/fotos.yml",
-					"settings":
-					{
-						"buffer_size": 124,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								124,
-								124
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -264,6 +196,26 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"menu",
+				"app/views/layouts/_menu.html.erb"
+			],
+			[
+				"appl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"abo",
+				"app/views/welcome/about.html.erb"
+			],
+			[
+				"adrin",
+				"app/views/welcome/_padrinos.html.erb"
+			],
+			[
+				"padri",
+				"config/padrinos.yml"
+			],
 			[
 				"app",
 				"app/views/layouts/application.html.erb"
@@ -337,10 +289,6 @@
 				"config/padrinos.yml"
 			],
 			[
-				"abo",
-				"app/views/welcome/about.html.erb"
-			],
-			[
 				"abou",
 				"app/views/welcome/about.html.erb"
 			],
@@ -363,10 +311,6 @@
 			[
 				"guets_c",
 				"app/controllers/guests_controller.rb"
-			],
-			[
-				"appl",
-				"app/views/layouts/application.html.erb"
 			],
 			[
 				"rou",
