@@ -5,7 +5,7 @@
 		[
 			[
 				"mar",
-				"margin-bottom"
+				"margin-left"
 			],
 			[
 				"image",
@@ -27,11 +27,27 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/welcome/gallery.html.erb",
+			"settings":
+			{
+				"buffer_size": 1286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/fotos.yml",
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 347.0,
 		"selected_items":
 		[
 			[
@@ -39,7 +55,7 @@
 				"Set Syntax: Ruby on Rails"
 			]
 		],
-		"width": 392.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -56,31 +72,43 @@
 	},
 	"file_history":
 	[
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/controllers/guests_controller.rb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/controllers/welcome_controller.rb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/about.html.erb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/index.html.erb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/marriage-html/index.html",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/assets/stylesheets/forms.css.scss",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/application.html.erb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_flash_messages.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/fotos.yml",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/_fotos.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_header.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_menu.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/helpers/application_helper.rb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/helpers/welcome_helper.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_footer.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/_padrinos.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/controllers/welcome_controller.rb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/assets/stylesheets/style.css.scss.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/index.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/marriage-html/gallery.html",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/assets/javascripts/application.js",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/about.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/rsvp.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/rsvp_back.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/routes.rb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/padrinos.yml",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/twitter_test.html",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/embedy_test.html",
+		"/Users/alonso/Library/Application Support/Sublime Text 2/Packages/User/jquery.sublime-snippet",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/marriage-html/index.html",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/database.example.yml",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/controllers/guests_controller.rb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/assets/stylesheets/forms.css.scss",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_flash_messages.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/expressDeploysh.sh",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/deploy.rb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/rsvp.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/db/migrate/20121211154613_add_test_field_to_guests.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/marriage-html/rsvp.html",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/rsvp_back.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/shared/_error_messages.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/models/guest.rb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/routes.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/Gemfile",
 		"/Users/alonso/Dev/workspaces/rails-apps/sample_app/Gemfile",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/helpers/welcome_helper.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/database.yml",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/marriage-html/page.html",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/helpers/application_helper.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/db/migrate/20121211013033_add_index_to_gest_number.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/db/migrate/20121211012756_create_guests.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/db/migrate/20121211013856_add_attend_status_to_guests.rb",
@@ -101,6 +129,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -108,6 +137,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"portfolio_caption",
+			"heart",
+			"fachi",
 			"Guest",
 			"end",
 			"map",
@@ -132,8 +164,62 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/welcome/gallery.html.erb",
+					"settings":
+					{
+						"buffer_size": 1286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								882,
+								882
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 83.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/fotos.yml",
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -179,6 +265,62 @@
 		"selected_items":
 		[
 			[
+				"app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"padr",
+				"app/views/welcome/_padrinos.html.erb"
+			],
+			[
+				"welco",
+				"app/controllers/welcome_controller.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"rs",
+				"app/views/welcome/rsvp_back.html.erb"
+			],
+			[
+				"rsv",
+				"app/views/welcome/rsvp.html.erb"
+			],
+			[
+				"welcome",
+				"app/controllers/welcome_controller.rb"
+			],
+			[
+				"rsvp",
+				"app/views/welcome/rsvp.html.erb"
+			],
+			[
+				"rsc",
+				"app/views/welcome/rsvp_back.html.erb"
+			],
+			[
+				"ab",
+				"app/views/welcome/about.html.erb"
+			],
+			[
+				"foot",
+				"app/views/layouts/_footer.html.erb"
+			],
+			[
+				"welcome_co",
+				"app/controllers/welcome_controller.rb"
+			],
+			[
+				"wlcome",
+				"app/controllers/welcome_controller.rb"
+			],
+			[
+				"padrin",
+				"config/padrinos.yml"
+			],
+			[
 				"inde",
 				"app/views/welcome/index.html.erb"
 			],
@@ -187,12 +329,16 @@
 				"public/marriage-html/index.html"
 			],
 			[
-				"ab",
-				"app/views/welcome/about.html.erb"
+				"men",
+				"app/views/layouts/_menu.html.erb"
 			],
 			[
-				"welcome",
-				"app/controllers/welcome_controller.rb"
+				"pad",
+				"config/padrinos.yml"
+			],
+			[
+				"abo",
+				"app/views/welcome/about.html.erb"
 			],
 			[
 				"abou",
@@ -201,10 +347,6 @@
 			[
 				"deplo",
 				"config/deploy.rb"
-			],
-			[
-				"men",
-				"app/views/layouts/_menu.html.erb"
 			],
 			[
 				"flash",
@@ -239,32 +381,12 @@
 				"Gemfile"
 			],
 			[
-				"rout",
-				"config/routes.rb"
-			],
-			[
-				"welco",
-				"app/controllers/welcome_controller.rb"
-			],
-			[
-				"rsvp",
-				"app/views/welcome/rsvp.html.erb"
-			],
-			[
-				"rs",
-				"public/marriage-html/rsvp.html"
-			],
-			[
 				"foo",
 				"app/views/layouts/_footer.html.erb"
 			],
 			[
 				"page",
 				"public/marriage-html/page.html"
-			],
-			[
-				"abo",
-				"app/views/welcome/about.html.erb"
 			],
 			[
 				"depl",
