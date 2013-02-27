@@ -56,21 +56,22 @@
 	},
 	"file_history":
 	[
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/mail.html",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/application.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_header.html.erb",
+		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/index.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/about.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/_padrinos.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/padrinos.yml",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/application.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_menu.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/config/fotos.yml",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/gallery.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/_fotos.html.erb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_header.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/helpers/application_helper.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/helpers/welcome_helper.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/layouts/_footer.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/controllers/welcome_controller.rb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/assets/stylesheets/style.css.scss.erb",
-		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/index.html.erb",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/public/marriage-html/gallery.html",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/assets/javascripts/application.js",
 		"/Users/alonso/Dev/workspaces/rails-apps/wedding/app/views/welcome/rsvp.html.erb",
@@ -197,6 +198,10 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"app/views/welcome/index.html.erb"
+			],
+			[
 				"menu",
 				"app/views/layouts/_menu.html.erb"
 			],
@@ -271,10 +276,6 @@
 			[
 				"padrin",
 				"config/padrinos.yml"
-			],
-			[
-				"inde",
-				"app/views/welcome/index.html.erb"
 			],
 			[
 				"index",

@@ -1,5 +1,41 @@
-<% content_for :moreScripts do %>
-<script type="text/javascript" charset="utf-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
+		<meta name="author" content="FamousThemes" />
+		<meta name="description" content="Get in the spotlight" />
+		<meta name="keywords" content="premium css templates, premium wordpress themes, famous themes, themeforest" />
+		<title>Alonso y Maria</title>
+		
+		<link href="/assets/application-3e932d5516919c39fdba995a19448500.css" media="all" rel="stylesheet" type="text/css" />
+
+		<link rel="stylesheet" href="prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+
+		<link href='http://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css' />
+
+		<script src="/assets/application-ec822c27344eb4f18803828228317ea9.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+
+			$(function() {
+				//alert("Will set show and hide actions");
+				$('#show_menu_link').click(function() {
+					$('#main_menu_container').fadeIn();
+					$('.show_menu').fadeOut();
+					$('.hide_menu').fadeIn();
+				});
+				$('#hide_menu_link').click(function() {
+					$('#main_menu_container').fadeOut();
+					$('.show_menu').fadeIn();
+					$('.hide_menu').fadeOut();
+				});
+			});
+
+		</script>
+
+		<script type="text/javascript" charset="utf-8">
 
 	var $ = jQuery.noConflict();
 	$(window).load(function() {
@@ -23,13 +59,58 @@
 		});
 	}); 
 </script>
-<% end %>
 
+		
+		<meta content="authenticity_token" name="csrf-param" />
+<meta content="lktqYMCKYFsXzRxHmuvgUNC0OTogWEmdWj+UPd9M2Ss=" name="csrf-token" />
+	</head>
+	<body>
+
+		<div id="shadow_bg">
+			<div id="main_container">
+
+				<a id="show_menu_link" class="show_menu" href="#">menu</a>
+<a id="hide_menu_link" class="hide_menu" href="#">cerrar menu</a>
+
+<div id="main_menu_container" class="menu">
+	<ul id="main_menu">
+		<li>
+			<a class=selected href="/">Home</a>
+		</li>
+		<li>
+			<a  href="/about">Nuestra Boda</a>
+		</li>
+		<li>
+			<a  href="/gallery">Álbum de fotos</a>
+		</li>
+		<li>
+			<a  href="/rsvp">RSVP</a>
+		</li>
+	</ul>
+</div>
+
+				<div id="center_container">
+
+					<div id="header">
+
+	<div class="title">
+		<a href="/">Alonso &amp; Maria</a>
+	</div>
+	<div class="description">
+		<span class="swirl_left"><span class="swirl_right">27 de Abril 2013 a las 18:30 hrs</span></span>
+	</div>
+	<!--<div class="description">
+		<span class="swirl_left"><span class="swirl_right">18:30</span></span>
+	</div> -->
+
+</div><!-- End of Header-->
+
+					
 			<div class="slider_container">
 				<div class="flexslider">
 					<ul class="slides">
 						<li>
-							<a href="#"><%= image_tag "slider/slide1.jpeg" %></a>
+							<a href="#"><img alt="Slide1" src="/assets/slider/slide1-bea016dc5f4b7efa9fe72c56948d69e5.jpeg" /></a>
 							<div class="flex-caption">
 								<!-- <div class="caption_title_line">
 									<h2>La felicidad es una manera de viajar</h2>
@@ -40,7 +121,7 @@
 							</div>
 						</li>
 						<li>
-							<a href="#"><%= image_tag "slider/slide2.jpeg" %></a>
+							<a href="#"><img alt="Slide2" src="/assets/slider/slide2-b8996cfcac7f4cc192b56120095e5bf3.jpeg" /></a>
 							<div class="flex-caption">
 								<!-- <div class="caption_title_line">
 									<h2>Two hearts that beat as one</h2>
@@ -51,7 +132,7 @@
 							</div>
 						</li>
 						<li>
-							<a href="#"><%= image_tag "slider/slide3.jpeg" %></a>
+							<a href="#"><img alt="Slide3" src="/assets/slider/slide3-796ed2598e91a07110706e5fbd4711f1.jpeg" /></a>
 							<div class="flex-caption">
 								<!-- <div class="caption_title_line">
 									<h2>Love is composed of a single soul</h2>
@@ -62,7 +143,7 @@
 							</div>
 						</li>
 						<li>
-							<a href="#"><%= image_tag "slider/slide4.jpg" %></a>
+							<a href="#"><img alt="Slide4" src="/assets/slider/slide4-06e28c985f09776421b2f375bb71bfbf.jpg" /></a>
 							<div class="flex-caption">
 								<!-- <div class="caption_title_line">
 									<h2>Your hands your hearts</h2>
@@ -77,7 +158,7 @@
 			</div>
 
 			<div class="home_title">
-				<h2>Bienvenidos todos <span>a nuestra Boda</span></h2>
+				<h2>Bienvenidos <span>a nuestra Boda</span></h2>
 				<div class="clear"></div>
 			</div>
 
@@ -85,7 +166,7 @@
 
 				<div class="left12 about">
 					<div class="about_pic">
-						<%= image_tag "about_maria.jpg" %>
+						<img alt="About_maria" src="/assets/about_maria-ce5e50bedc21983557dc9a837dd20563.jpg" />
 					</div>
 					<div class="about_right">
 						<h2>Sobre Maria</h2>
@@ -96,7 +177,7 @@
 				</div>
 				<div class="left12 about">
 					<div class="about_pic">
-						<%= image_tag "about_alonso.jpg" %>
+						<img alt="About_alonso" src="/assets/about_alonso-6b000405eb0dc2c6d8f4c7777eb918f0.jpg" />
 					</div>
 					<div class="about_right">
 						<h2>Sobre Alonso</h2>
@@ -108,7 +189,7 @@
 
 				<div class="left13 section_home">
 					<h2>Nuestra <span>Boda</span></h2>
-					<a href="#"><%= image_tag "image_13.jpg" %></a>
+					<a href="#"><img alt="Image_13" src="/assets/image_13-686b922d887c6978938d5755c674b82f.jpg" /></a>
 					<!--
 					<p>
 						El código de vestimenta es de tipo <strong>coctail formal</strong>.
@@ -144,7 +225,7 @@
 
 				<div class="left13 section_home">
 					<h2>Mesa de <span>Regalos</span></h2>
-					<a href="#"><%= image_tag "image_13_3.jpg"%></a>
+					<a href="#"><img alt="Image_13_3" src="/assets/image_13_3-b501be5e42fdaac924349b64dde8aafc.jpg" /></a>
 					<p>
 						Compartir con ustedes esta noche tan especial es el mejor regalo. Pero no sean codos... Hay dos mesas de regalos: <strong><a href="http://www.elpalaciodehierro.com.mx/webapp/wcs/stores/servlet/GCWeddingSection?catalogId=10051&storeId=10001&langId=-5&path=ccat00000%23%23-1%23%23-1%7E%7Enccat00003&eventId=238541" target="_blank">Palacio de hierro</a></strong> y <strong><a target="_blank" href="http://www.liverpool.com.mx/shopping/store/events.jsp?siteLocation=1">Liverpool</a>.</strong>
 					</p>
@@ -170,3 +251,44 @@
 			</div>
 
 			<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+	<div class="footer_content">
+		<div class="footer_text">
+			Alonso Castañeda 2012
+			<br />
+			Fotos por <strong>Alonso y Maria</strong>
+		</div>
+		<div class="footer_menu">
+			<ul>
+				<li class=selected>
+					<a href="/">Home</a>
+				</li>
+				<li >
+					<a href="/about">Nuestra Boda </a>
+				</li>
+				<li >
+					<a href="gallery">Álbum de fotos </a>
+				</li>
+				<li >
+					<a href="/rsvp">RSVP</a>
+				</li>
+				<li>
+					<a onclick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="javascript:void(0);" class="gotop" title="Go on top">TOP</a>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	var main_menu = new main_menu.dd("main_menu");
+	main_menu.init("main_menu", "menuhover"); 
+</script>
+		
+	</body>
+</html>
