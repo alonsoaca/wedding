@@ -110,12 +110,12 @@ Carlos Hernandez Robles:
     title: Festejanodo mi graduación
     slider: slider/carlos_graduacion.jpg
 
-Ximena Choriego Hütt:
-    icon: bridesmaid_xime.jpg
-    fb: http://www.facebook.com/ximena.choriegohutt
-    desc: Prima hermana de Maria, persona muy especial confiable y noble, grandes amigas a pesar de la distancia.
-    title: Bailando felices con las primas!
-    slider: slider/xime_maria.jpg
+#Ximena Choriego Hütt:
+#    icon: bridesmaid_xime.jpg
+#    fb: http://www.facebook.com/ximena.choriegohutt
+#    desc: Prima hermana de Maria, persona muy especial confiable y noble, grandes amigas a pesar de la distancia.
+#    title: Bailando felices con las primas!
+#    slider: slider/xime_maria.jpg
 
 Abraham Ponciano:
     icon: groomsmen_abry.jpg
@@ -123,3 +123,10 @@ Abraham Ponciano:
     desc: Amigo incondicional, lleno de vida y siempre presente cuando se le necesita.
     title: Que buen viaje! Gracias hermano!
     slider: slider/abry_barc.jpg
+
+Juanchi Torre:
+    icon: groomsmen_juanchi.jpg
+    fb: http://www.facebook.com/juanchi.torre
+    desc: Querido hermano de Maria, alegre, simpático, y muy chistoso.
+    title: Te quiero!
+    slider: slider/juanchi_slider.jpg
